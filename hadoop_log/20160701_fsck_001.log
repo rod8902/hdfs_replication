@@ -1,0 +1,31 @@
+Connecting to namenode via http://master:50070
+FSCK started by hduser (auth:SIMPLE) from /10.0.1.71 for path / at Thu Jul 14 11:30:29 KST 2016
+/ <dir>
+/test3.mp4 1419150586 bytes, 6 block(s):  OK
+0. BP-1307063804-10.0.1.71-1468462591509:blk_1073741825_1001 len=268435456 repl=3 [10.0.1.71:50010, 10.0.1.73:50010, 10.0.1.74:50010]
+1. BP-1307063804-10.0.1.71-1468462591509:blk_1073741826_1002 len=268435456 repl=3 [10.0.1.74:50010, 10.0.1.72:50010, 10.0.1.73:50010]
+2. BP-1307063804-10.0.1.71-1468462591509:blk_1073741827_1003 len=268435456 repl=3 [10.0.1.73:50010, 10.0.1.76:50010, 10.0.1.72:50010]
+3. BP-1307063804-10.0.1.71-1468462591509:blk_1073741828_1004 len=268435456 repl=3 [10.0.1.71:50010, 10.0.1.72:50010, 10.0.1.76:50010]
+4. BP-1307063804-10.0.1.71-1468462591509:blk_1073741829_1005 len=268435456 repl=3 [10.0.1.71:50010, 10.0.1.76:50010, 10.0.1.74:50010]
+5. BP-1307063804-10.0.1.71-1468462591509:blk_1073741830_1006 len=76973306 repl=3 [10.0.1.74:50010, 10.0.1.72:50010, 10.0.1.76:50010]
+
+Status: HEALTHY
+ Total size:	1419150586 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	6 (avg. block size 236525097 B)
+ Minimally replicated blocks:	6 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		5
+ Number of racks:		1
+FSCK ended at Thu Jul 14 11:30:29 KST 2016 in 1 milliseconds
+
+
+The filesystem under path '/' is HEALTHY
